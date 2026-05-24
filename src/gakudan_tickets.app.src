@@ -1,0 +1,10 @@
+{application, gakudan_tickets, [
+    {description, "Ticket-source behaviour for gakudan (GitHub / Jira / Linear adapters)"},
+    {vsn, "git"},
+    {registered, []},
+    {applications, [kernel, stdlib]},
+    {env, []},
+    {modules, []},
+    {licenses, ["MIT"]},
+    {links, [{"GitHub", "https://github.com/Taure/gakudan_tickets"}]}
+]}.
